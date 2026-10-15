@@ -87,10 +87,7 @@ function MainApp() {
       </main>
 
       {/* Footer */}
-      <Footer
-        onOpenBooking={() => handleOpenBooking()}
-        onOpenTracking={handleOpenTracking}
-      />
+      <Footer />
 
       {/* Real-time Wash Bay Order Tracker */}
       <OrderTrackerModal
