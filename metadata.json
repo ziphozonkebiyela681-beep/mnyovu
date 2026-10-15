@@ -1,0 +1,6 @@
+{
+  "name": "Mnyovu's Sneaker Wash & Shoe Care",
+  "description": "Premium sneaker care, deep cleaning, suede restoration and shoe wash located at 34 Macintyre Street, Jeppestown, Johannesburg. We've got you covered, Manje Clean!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
