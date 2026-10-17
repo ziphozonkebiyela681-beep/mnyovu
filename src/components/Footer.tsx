@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
                   MNYOVU'S SNEAKER WASH
                 </span>
                 <span className="text-xs font-bold text-rose-400 tracking-wider block">
-                  &amp; SHOE CARE · EST. 2026
+                  &amp; SHOE CARE · EST. 2020
                 </span>
               </div>
             </div>

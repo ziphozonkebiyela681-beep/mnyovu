@@ -76,6 +76,12 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenTracking })
               Services &amp; Pricing
             </a>
             <a
+              href="#team"
+              className="text-sm font-semibold text-slate-700 hover:text-[#0D1B3E] transition-colors"
+            >
+              Our Team
+            </a>
+            <a
               href="#process"
               className="text-sm font-semibold text-slate-700 hover:text-[#0D1B3E] transition-colors"
             >
@@ -151,6 +157,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking, onOpenTracking })
               className="px-3 py-2 rounded-lg text-sm font-semibold text-slate-800 hover:bg-slate-50"
             >
               Services &amp; Pricing
+            </a>
+            <a
+              href="#team"
+              onClick={() => setMobileMenuOpen(false)}
+              className="px-3 py-2 rounded-lg text-sm font-semibold text-slate-800 hover:bg-slate-50"
+            >
+              Our Team &amp; Family
             </a>
             <a
               href="#process"

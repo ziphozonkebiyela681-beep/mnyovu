@@ -5,7 +5,7 @@ export const BUSINESS_INFO = {
   shortName: "Mnyovu's",
   tagline: "We've Got You Covered, Manje Clean !!",
   subTagline: "Quality Clean. Fresh Look. Professional Care For Your Sneakers.",
-  established: "2026",
+  established: "2020",
   address: "34 Macintyre Street, Jeppestown, Johannesburg",
   city: "Johannesburg",
   province: "Gauteng",

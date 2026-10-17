@@ -27,7 +27,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenTracking }) => 
               <MapPin className="w-4 h-4 text-[#A81C2F]" />
               <span>34 Macintyre Street, Jeppestown, Johannesburg</span>
               <span className="text-slate-300">|</span>
-              <span className="text-[#A81C2F]">EST. 2026</span>
+              <span className="text-[#A81C2F]">EST. 2020</span>
             </div>
 
             {/* Main Headline */}
@@ -153,11 +153,6 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking, onOpenTracking }) => 
 
                 {/* Gradient overlay for text contrast */}
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
-
-                {/* Floating Emblem Overlay */}
-                <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md rounded-full p-1.5 shadow-lg border border-slate-200">
-                  <LogoBadge size="sm" showSubtitle={false} />
-                </div>
 
                 {/* Bottom Photo Overlay Note */}
                 <div className="absolute bottom-4 left-4 right-4 text-white">
