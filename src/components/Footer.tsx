@@ -1,7 +1,7 @@
 import React from 'react';
 import { LogoBadge } from './LogoBadge';
 import { BUSINESS_INFO } from '../data/servicesData';
-import { MapPin, Phone, MessageCircle, Navigation, ExternalLink, Heart } from 'lucide-react';
+import { MapPin, Phone, MessageCircle, Navigation, ExternalLink, Heart, Youtube } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -138,6 +138,17 @@ export const Footer: React.FC = () => {
                 className="text-xs text-sky-400 hover:text-sky-300 font-bold flex items-center gap-1.5 mt-1"
               >
                 <span>🎵 TikTok: @{BUSINESS_INFO.tiktok}</span>
+              </a>
+
+              <a
+                href={BUSINESS_INFO.youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-xs text-rose-400 hover:text-rose-300 font-bold flex items-center gap-1.5 mt-0.5"
+                title="Watch Mnyovu Ngubane on YouTube"
+              >
+                <Youtube className="w-3.5 h-3.5 fill-rose-400" />
+                <span>YouTube: {BUSINESS_INFO.youtube}</span>
               </a>
             </div>
           </div>

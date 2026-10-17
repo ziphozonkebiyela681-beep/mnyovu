@@ -15,6 +15,8 @@ export const BUSINESS_INFO = {
   whatsappNumber: "27603991998", // 060 399 1998 in international format
   tiktok: "mnyovu_uyatinyela",
   tiktokUrl: "https://www.tiktok.com/@mnyovu_uyatinyela",
+  youtube: "@Mnyovu_Ngubane",
+  youtubeUrl: "https://www.youtube.com/@Mnyovu_Ngubane",
   googleMapsUrl: "https://www.google.com/maps/search/?api=1&query=34+Macintyre+Street+Jeppestown+Johannesburg",
   turnaroundNote: "NB: It takes 2 - 3 Days as orders are many",
   badges: [
